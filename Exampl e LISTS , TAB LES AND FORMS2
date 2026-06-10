@@ -1,0 +1,37 @@
+tr.even td, tr.even th {
+background-color: #b609fa;}
+tr.head th:first-child {
+-webkit-border-top-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+border-top-left-radius: 5px;}
+tr.head th:last-child {
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+border-top-right-radius: 5px;}
+fieldset {
+width: 310px;
+margin-top: 20px;
+border: 1px solid #1706fa;
+background-color: #070505;
+line-height: 1.6em;}
+legend {
+font-style:italic;
+color:#666666;}
+input[type="text"] {
+width: 120px;
+border: 1px solid #e907b8;
+padding: 2px;
+outline: none;}
+input[type="text"]:focus,
+input[type="text"]:hover {
+background-color: #0b7dd4;
+border: 1px solid #22d60a;}
+input[type="submit"] {
+border: 1px solid #006633;
+background-color: #009966;
+color: #f11515;
+border-radius: 5px;
+padding: 5px;
+margin-top: 10px;}
+input[type="submit"]:hover 
+border: 1px solid #006633;
